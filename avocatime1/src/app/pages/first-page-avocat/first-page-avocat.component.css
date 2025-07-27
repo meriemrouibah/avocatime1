@@ -1,0 +1,63 @@
+.first-page {
+  position: relative;
+  width: 98vw;
+  height: 97vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.top-section {
+  position: absolute;
+  width: 98vw;
+  height: 50vh;
+  background: url('/assets/jugeF.png') center  / cover no-repeat;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 2);
+  border-radius: 1vw;
+}
+
+.cta-section {
+  width: 98vw;
+  height: 43vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 55vh;
+  background: url('/assets/footer.png') center  / cover no-repeat;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 30vw;
+  height: 10vh;
+  margin: 1vw;
+  font-size: 1.8vw;
+  border-radius: 2.2vw;
+}
+
+.line {
+  width: 30vw;
+  z-index: 2;
+  margin-top: 3vh;
+}
+
+.logo-siwan {
+  width: 3vw;
+  margin-top: 2vh;
+}
+
+.footer-text {
+  font-size: 1.2vw;
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}

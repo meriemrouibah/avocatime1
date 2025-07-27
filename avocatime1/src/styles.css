@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Port Lligat Sans';
+  src: url('assets/fonts/PortLligatSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Pragati Narrow", sans-serif;
+  src: url('assets/fonts/PragatiNarrow-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Pragati Narrow", sans-serif;
+  src: url('assets/fonts/PragatiNarrow-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url('assets/fonts/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url('assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  font-family: "Port Lligat Sans", sans-serif;
+}
+
+body {
+  font-family: "Pragati Narrow", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

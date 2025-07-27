@@ -1,0 +1,107 @@
+.pdf-page {
+  width: 98vw;
+  height: 97vh;
+  background: url('/assets/background5.png') no-repeat center center / cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 2vh 2vw;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  margin-top: 2vh;
+}
+
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 1vh 2vw;
+  border-radius: 10vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logo {
+  width: 10vw;
+  margin-top: -3vh;
+}
+
+.title {
+  margin: 3vh 0;
+  text-align: center;
+  max-width: 90vw;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1vh 3vw;
+  border-radius: 3vw;
+  font-size: 1.5vw;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  width: 100%;
+  max-width: 100vw;
+  margin-top: 2vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1vw;
+  min-width: 18vw;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 0;
+    transition: background 0.3s ease;
+  }
+
+  &:hover::before {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  &.selected::before {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .card-content {
+    position: relative;
+    z-index: 1;
+    color: black;
+    font-size: 1.8vh;
+    font-weight: 700;
+    text-align: center;
+    padding: 1vh 1vw;
+  }
+}

@@ -1,0 +1,112 @@
+.ai-bot {
+  background-size: cover;
+  background-color: #e9f7ef;
+  font-family; 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 99vw;
+  height: 97vh;
+}
+
+.logo {
+  position: absolute;
+  height: 22vh;
+  top: 2vh;
+  left: 45vw;
+}
+
+.account-btn {
+  position: absolute;
+  width: 12vw;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  font-size: 3vh;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.8vw;
+  cursor: pointer;
+  right: 4vw;
+  top: 4vh;
+  text-wrap: nowrap;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chat-window {
+  width: 80vw;
+  height: 50vh;
+  background-color: #2f2f2f;
+  border-radius: 1.8vw;
+  margin-top: 25vh;
+}
+
+.chat-input-bar {
+  width: 40vw;
+  height: 10vh;
+  font-weight: 400;
+  background-color: #2f2f2f;
+  border-radius: 1.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.chat-input-bar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 3vh;
+  padding-left: 1vh;
+}
+
+.chat-input-bar input::placeholder {
+  color: #aaa;
+}
+
+.send-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1vw;
+}
+btn-file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.file-btn,
+.voice-btn {
+  width: 12vw;
+  height: 4vh;
+  background-color: #2f2f2f;
+  color: gray;
+  border: none;
+  border-radius: 1.8vh;
+  font-size: 1vw;
+  cursor: pointer;
+  font-weight: 400;
+  margin: 2vh;
+}
+
+.file-btn {
+
+}
+
+.voice-btn {
+
+}

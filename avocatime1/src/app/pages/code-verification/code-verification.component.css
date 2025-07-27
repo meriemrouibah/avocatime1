@@ -1,0 +1,137 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-verification {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 97vh;
+  background: #F5F5F5;
+}
+
+.card {
+  position: relative;
+  background: #000000;
+  color: white;
+  padding: 0.2vh;
+  border-radius: 1.7vw;
+  width: 48vw;
+  height: 84vh;
+}
+
+.logo {
+  width: 9vw;
+  height: 22vh;
+  position: absolute;
+  top: 13vh;
+  left: 20vw;
+}
+
+.back-link {
+  position: absolute;
+  top: 6vh;
+  left: 1vw;
+  color: #FFFFFF;
+  font-size: 0.7vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  width: 13vw;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.3vw;
+  font-weight: 700;
+  width: 19vw;
+  height: 5vh;
+  position: absolute;
+  top: 38vh;
+  left: 7.5vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.mail {
+  width: 34.5vw;
+  height: 2vh;
+  position: absolute;
+  top: 46vh;
+  left: 7.5vw;
+  font-family: 'PortLligateSans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.newcode {
+  width: 8vw;
+  height: 2vh;
+  position: absolute;
+  top: 54vh;
+  left: 11vw;
+  font-family: 'PortLligatSans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+#code {
+  width: 29.5vw;
+  height: 6vh;
+  position: absolute;
+  top: 58vh;
+  left: 10vw;
+  border-radius: 1.8vw;
+  background: gray;
+}
+
+.rien {
+  width: 14vw;
+  height: 1.5vh;
+  position: absolute;
+  top: 66vh;
+  left: 15.5vw;
+  font-family: 'PortLligatSans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.send {
+  color: yellow;
+  cursor: pointer;
+  width: 4vw;
+  height: 1.5vh;
+  top: 66vh;
+  left: 29vw;
+  position: absolute;
+  font-family: 'PortLligatSans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+button {
+  background-color: #F5F5F5;
+  color: black;
+  width: 21.5vw;
+  height: 6vh;
+  position: absolute;
+  top: 73vh;
+  left: 14vw;
+  border-radius: 1.1vw;
+  font-size: 2vw;
+  font-weight: 700;
+}

@@ -1,0 +1,188 @@
+.login-avocat {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  width: 95vw;
+  height: 97vh;
+}
+
+.left {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 44vw;
+  height: 80vh;
+
+}
+
+.right {
+  width: 35vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  background: url('/assets/juge.png') center center / cover no-repeat;
+  border-radius: 1vw;
+  margin-right: -7vw;
+
+}
+
+.logo {
+   width: 10vw;
+   margin-top: 1vh;
+ }
+
+h2 {
+  margin-top: 1vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courriel {
+  margin-top: 0.5vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: auto;
+  letter-spacing: 0%;
+  color: #000000;
+  justify-content: start;
+}
+
+.password {
+  margin-top: 0.5vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: auto;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+#email {
+  width: 30vw;
+  height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  border-radius: 2vw;
+  border: none;
+  background-color: #A1A1A1;
+}
+
+#password {
+  width: 30vw;
+  height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2vw;
+  border-radius: 2vw;
+  border: none;
+  background-color: #A1A1A1;
+}
+
+.connect {
+  background-color: black;
+  color: #FFFFFF;
+  border: none;
+  font-size: 1.2vw;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: 15vw;
+  height: 6vh;
+  font-weight: 700;
+  border-radius: 0.8vw;
+  line-height: auto;
+  letter-spacing: 0%;
+  margin-top: 1.5vh;
+}
+
+.social-text {
+  margin-top: 4vh;
+  color: #525252;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw;
+  letter-spacing: 0%;
+  line-height: auto;
+}
+
+.social-icons {
+  width: 17vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -5vh;
+
+}
+.google {
+  width: 3.5vw;
+  height: 5.5vh;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+
+.facebook {
+  width: 4vw;
+  height: 5.5vh;
+  margin-left: 1.5vw;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.microsoft {
+  width: 10.5vw;
+  height: 11.5vh;
+  cursor: pointer;
+}
+
+.twitter {
+  width: 4.5vw;
+  height: 6vh;
+  margin-top: 3vh;
+  margin-left: 0vw;
+  cursor: pointer;
+}
+
+.new {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: #525252;
+
+  margin-top: 1vh;
+}
+
+.lien {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+
+}
+
+.forget {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+  margin-top: 0vh;
+}
